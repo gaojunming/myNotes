@@ -31,7 +31,7 @@
             http://images.google.com/images?num=30&q=larry+bird  
         你必须要把网址转换写为：
         
-            http://images.google.com/images?num=30\&amp;q=larry+bird  
+            http://images.google.com/images?num=30&amp;q=larry+bird  
         才能放到链接标签的 href 属性里。不用说也知道这很容易忽略，这也可能是 HTML 标准检验所检查到的错误中，数量最多的。  
         Markdown 让你可以自然地书写字符，需要转换的由它来处理好了。如果你使用的 `&` 字符是 HTML 字符实体的一部分，它会保留原状，否则它会被转换成 `&amp;`。  
         所以你如果要在文档中插入一个版权符号`©`，你可以这样写：
